@@ -1,6 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <AssemblyName>INeedToWork</AssemblyName>
     <OutputType>WinExe</OutputType>
     <TargetFramework>net7.0-windows</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
@@ -9,7 +10,7 @@
     <ApplicationIcon>Mouse (ISO).ico</ApplicationIcon>
     <Version>2.0.14</Version>
     <PublishSingleFile>true</PublishSingleFile>
-    <SelfContained>false</SelfContained>
+    <SelfContained>true</SelfContained>
     <RuntimeIdentifier>win-x64</RuntimeIdentifier>
     <Authors>Alistair J. R. Young</Authors>
     <Company>Arkane Systems</Company>
